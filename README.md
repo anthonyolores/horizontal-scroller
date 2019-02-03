@@ -9,6 +9,5 @@ In this example the animation uses jquery.
   - script.js
   - style.css
 
-
-
+Demo: https://codepen.io/anthonyolores/pen/VgWKRO
 
