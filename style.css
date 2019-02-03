@@ -1,0 +1,43 @@
+/** ul, li, div**/
+div.parent{
+  position:relative;
+  width: 600px;
+  margin-left:200px
+}
+ul{
+    width: 100%;
+  	padding:0px;
+		overflow: auto;
+		white-space: nowrap;
+}
+
+li{
+  	display:inline-block;
+}
+
+li .cont{
+  width:200px;
+  height:200px;
+  padding-top:75px;
+  box-sizing:border-box;
+  text-align:center;
+  background:#eee;
+  border:1px solid #fff;
+  font-size: 3.0em;
+}
+
+
+/**scroll arrow*/
+.scroll-arrow {
+	position:absolute; 
+	font-size:1.5em; 
+	color:#fff; 
+	padding:6px 15px; 
+	background: #00aeef;
+}
+.scroll-arrow.left {
+	left:0px; 
+}
+.scroll-arrow.right {
+	right:0px; 
+}
